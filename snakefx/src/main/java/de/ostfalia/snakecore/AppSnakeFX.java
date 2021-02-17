@@ -22,7 +22,7 @@ import java.util.Arrays;
  * @author Benjamin Wulfert
  * @author Leonard Reidel
  *
- * The entry point of the javafx-application.
+ * The entry point of thebenn javafx-application.
  * Diese Klasse ausführen um den JavaFX-Client zu starten.
  */
 public class AppSnakeFX extends BaseApplication {
