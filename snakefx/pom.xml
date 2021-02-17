@@ -9,7 +9,9 @@
     <artifactId>snakefx</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>SnakeFX</name>
-    <description>The SnakeFX client using JavaFX</description>
+    <description>
+        Das SnakeFX-Modul stellt das Front-End des Projekts dar.
+    </description>
 
     <!-- the used libraries in this project -->
     <dependencies>
@@ -92,6 +94,8 @@
                 <configuration>
                     <show>private</show>
                     <nohelp>true</nohelp>
+                    <additionalOptions>-Xdoclint:none</additionalOptions>
+                    <additionalJOption>-Xdoclint:none</additionalJOption>
                 </configuration>
             </plugin>
 

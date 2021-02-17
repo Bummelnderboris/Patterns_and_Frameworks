@@ -16,7 +16,7 @@
     <version>0.0.1-SNAPSHOT</version>
 
     <name>SnakeCore</name>
-    <description>The Core Project of SnakeFX / SnakeServer</description>
+    <description>Das SnakeCore-Modul stellt den Kern des Projekts dar und enthält Komponenten und Entitäten welche in allen weiteren Projekten verwendet werden (SnakeServer - Backend, SnakeFX - Frontend, SnakeTest - Test-Integration).</description>
 
     <properties>
         <java.version>8</java.version>
@@ -63,6 +63,33 @@
                     <target>8</target>
                 </configuration>
             </plugin>
+
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>3.7.1</version>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-project-info-reports-plugin</artifactId>
+                <version>3.0.0</version>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.0.1</version>
+                <configuration>
+                    <show>private</show>
+                    <nohelp>true</nohelp>
+                    <additionalparam>-Xdoclint:none</additionalparam>
+                    <additionalOptions>-Xdoclint:none</additionalOptions>
+                    <additionalJOption>-Xdoclint:none</additionalJOption>
+                </configuration>
+            </plugin>
+
         </plugins>
     </build>
 

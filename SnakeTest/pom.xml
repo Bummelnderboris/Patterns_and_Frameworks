@@ -16,7 +16,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<name>SnakeCore - Test Project</name>
-	<description>Test project for SnakeCore, SnakeFX and SnakeServer</description>
+	<description>Das SnakeTest-Modul stellt verschiedene Test-Implementierungen und Szenarien für das Projekt dar.</description>
 
 	<properties>
 		<java.version>8</java.version>
@@ -183,6 +183,36 @@
 					<target>8</target>
 				</configuration>
 			</plugin>
+
+
+
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-site-plugin</artifactId>
+				<version>3.7.1</version>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-project-info-reports-plugin</artifactId>
+				<version>3.0.0</version>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>3.0.1</version>
+				<configuration>
+					<show>private</show>
+					<nohelp>true</nohelp>
+					<additionalparam>-Xdoclint:none</additionalparam>
+					<additionalOptions>-Xdoclint:none</additionalOptions>
+					<additionalJOption>-Xdoclint:none</additionalJOption>
+				</configuration>
+			</plugin>
+
+
 		</plugins>
 	</build>
 

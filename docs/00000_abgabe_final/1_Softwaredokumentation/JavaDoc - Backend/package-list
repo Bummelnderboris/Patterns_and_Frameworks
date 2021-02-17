@@ -1,0 +1,5 @@
+de.ostfalia.snakecore.SnakeServer
+de.ostfalia.snakecore.SnakeServer.controller
+de.ostfalia.snakecore.SnakeServer.persistance
+de.ostfalia.snakecore.SnakeServer.runner
+de.ostfalia.snakecore.SnakeServer.ws.server

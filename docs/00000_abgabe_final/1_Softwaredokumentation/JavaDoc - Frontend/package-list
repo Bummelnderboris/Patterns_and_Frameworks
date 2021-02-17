@@ -1,0 +1,12 @@
+de.ostfalia.snakecore
+de.ostfalia.snakecore.app
+de.ostfalia.snakecore.assets
+de.ostfalia.snakecore.controller
+de.ostfalia.snakecore.controller.debug
+de.ostfalia.snakecore.controller.homescreen
+de.ostfalia.snakecore.controller.login
+de.ostfalia.snakecore.model
+de.ostfalia.snakecore.model.rendering
+de.ostfalia.snakecore.task
+de.ostfalia.snakecore.util
+de.ostfalia.snakecore.view

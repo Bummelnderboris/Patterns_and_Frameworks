@@ -1,0 +1,28 @@
+# Hinweise zur Abgabe
+
+## 0_Quelltext
+Enthält das Zip-Archiv "Patterns_and_Frameworks_Quelltext.zip" welches den gesamten Quelltext des Projekts enthält.
+Für eine eventuelle Einrichtung der Projektumgebung sind im Ordner "Einrichtung" alle benötigten Schritte beschrieben,
+welche vom Bezug der Software zur Ausüfhrung der Module führen.
+
+## 1_Softwaredokumentation
+Enthält die Dokumentation des gesamten Projekts.
+Die Beschreibungen und technischen Dokumentation können, pro Modul, in den jeweiligen Unterverzeichnis durch Aufruf der "index.html" betrachtet werden.
+Die Berichte und Dokumente wurden mit einem Umfangreichen Konfigurationsaufwand mit den Tools Apache Maven "Site" und dem traditionellen Werkzeug "JavaDoc" erzeugt.
+
+## 2_Kurzbericht
+Die aktuelle Variante des Kurzberichts, welches das Vorgehen innerhalb des gesamten Projektzeitraums beschreibt.
+
+## 3_Prasentation
+Die Präsentation welche am 19.02. vorgestellt wird.
+
+## 4_Videos
+Zwei Videos welche die Verwendung der Anwendung darstellen.
+
+Das Video "17_02_2021 - Wulfert.mp4" - stellt das Projekt aus Sicht des "Hosts" dar, 
+welcher auf dem Computer-System sowohl den Server als auch den Client startet. 
+Zur Verbindung von Client mit Server wird die LOKALE IP-Adresse des Hosts verwendet.
+
+Das Video "17_02_2021 - Reidel.mp4" - stellt das Projekt aus Sicht des "Client" dar, 
+welcher auf dem Computer-System den Client startet. 
+Zur Verbindung von Client mit Server wird die EXTERNE IP-Adresse des Hosts verwendet.
